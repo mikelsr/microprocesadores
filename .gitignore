@@ -1,3 +1,8 @@
+Drivers/
+MDK-ARM/
+.mxproject
+proyecto.ioc
+
 # Prerequisites
 *.d
 
