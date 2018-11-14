@@ -57,4 +57,4 @@ while True:
     s = input()
     if s == "0" or s == "1":
         status = s.encode("ascii")
-    print("Status set to '{}'".format(s))
+        print("Status set to '{}'".format(s))
