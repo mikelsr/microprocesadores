@@ -31,7 +31,6 @@ def listen():
             # STATUS
             elif key == b'S':
                 data = status
-                status = data
             conn.sendall(data)
             print("[{}]\tSent {} bytes: {}".format(i, len(data), data))
         except Exception as err:
